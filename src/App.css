@@ -1,0 +1,36 @@
+body{
+  background-color: #9888aa;
+}
+.App{
+  background-color: #8f3760;
+  min-height: 500px;
+  width: 400px;
+  margin:100px;
+}
+#to-do-form input{
+  background-color: rgb(27,112,137);
+  border:0;
+  width:200px;
+  height:50px;
+  padding:0 20px;
+  margin:20px;
+  font-size:10px;
+  border-radius: 10px;
+}
+#to-do-form input::placeholder{
+  color: white;
+}
+#to-do-form input::focus{
+  outline: none;
+}
+
+#to-do-form button{
+  background-color: rgb(202,156,24);
+  border:0;
+  border-radius: 10px;
+  width:100px;
+  height:50px;
+  cursor:pointer;
+  font-weight:bolder;
+  color:white;
+}
